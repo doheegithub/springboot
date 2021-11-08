@@ -118,5 +118,7 @@ public class PostsApiControllerTest {
         assertThat(responseEntity.getBody().getId()).isEqualTo(updateId);
         assertThat(responseEntity.getBody().getTitle()).isEqualTo("title");
     }
+
+
 }
 
